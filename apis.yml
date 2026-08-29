@@ -13,6 +13,17 @@ description: >-
   AutoGen, CrewAI), and enforces existing role-based access controls at retrieval
   time. Founded in 2023 by Gilad Salinger (CEO) and Dror Wolmer (CTO), with
   production customers Global-E (NASDAQ: GLBE) and Melio.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
