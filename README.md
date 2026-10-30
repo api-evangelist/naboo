@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Naboo is a company surfaced as a portfolio company of lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Naboo is Reasoning Layer infrastructure for enterprise AI agents, built on a Decision Graph that models how a company actually decides, ships, and unblocks - who decided what, what triggered each decision, what blocks it, and what depends on it - across code, tickets, pull requests, docs, Slack, runtime, and internal services. Any AI agent in the organization queries the graph in GraphQL, or through an MCP server that turns plain intent into a structured query, and gets a structured answer instead of a list of search results. Naboo deploys on-premise or in a customer VPC with zero data egress, integrates with any LLM (OpenAI, Anthropic, Llama, Mistral) and agentic framework (LangChain, AutoGen, CrewAI), and enforces existing role-based access controls at retrieval time. Founded in 2023 by Gilad Salinger (CEO) and Dror Wolmer (CTO), with production customers Global-E (NASDAQ: GLBE) and Melio.
 
-Backed by: lightspeed-venture-partners
+**Areas:** Company · Artificial Intelligence · AI Agents · Knowledge Graph · Reasoning Layer · GraphQL · MCP · Enterprise Software · Developer Infrastructure · RAG
+
+## Naboo on APIs.io
+
+Everything profiled for Naboo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/naboo/](https://apis.io/providers/naboo/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Naboo Domain Security](https://apis.io/security/naboo/naboo-domain-security/)
+- [Naboo Trust Center](https://apis.io/security/naboo/naboo-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.naboo.ai/)
+- [Blog](https://www.uvi.io/blog/)
+- [Compliance](https://www.naboo.ai/security/)
+- [Terms of service](https://www.naboo.ai/terms-of-use.pdf)
+- [Privacy policy](https://www.naboo.ai/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 15.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 43.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/naboo/](https://apis.io/providers/naboo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Naboo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/naboo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
